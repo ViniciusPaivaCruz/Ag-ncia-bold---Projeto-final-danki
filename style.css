@@ -366,6 +366,7 @@ body{
     position: absolute;
     text-align: center;
     background-color: #f4f4f4;
+    max-width:100%;
     width: 2189px;
     display: flex;
     align-items: center;
