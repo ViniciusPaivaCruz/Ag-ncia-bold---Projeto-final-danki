@@ -1,0 +1,864 @@
+/*all*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', 'sans-serif';
+}
+/*all*/
+
+body{
+    margin: 0;
+}
+
+/*Main div -- Principal*/
+.div_master{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parte_azul_container{
+    display: flex;
+    max-width: 2189px;
+    padding: 0% 0%;
+    margin: 0 auto;
+}
+
+ /* Layout Properties */
+.parte_azul{
+    width: 104%;
+    background-image: url('/images/HERO\ BACKGROUND.png');  
+    background-position: center;
+    background-size: cover;
+    margin-left: -20px;
+    opacity: 1;
+    align-items: center;
+    text-align: center;
+}
+#titulo{
+    position: relative;
+    top: 210px;
+    font: normal normal normal 64px/75px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+
+    
+}
+.subtitulo{
+    text-align: center;
+    font: normal normal normal 20px/24px 'Raleway';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 250px;
+}
+
+/*MENU*/
+.menu{
+    margin-left: 3%;
+    width: 95%;
+    height: 80px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+.menu .links{
+    margin-top: 66px;
+    margin-right: 250px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 130px;
+}
+.menu .links a{
+    margin-left: 36px;
+    display: inline-block;
+    font: normal normal bold 20px/24px'Raleway';
+}
+.links a:hover{
+    border-bottom: 3px solid yellow;
+}
+.links .diff:hover{
+    border: none;
+    color: yellow;
+    
+}
+.menu .links .diff{
+    background-color: #0F3FD3;
+    width: 230px;
+    height: 60px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.menu .logo{
+    margin-left: 260px;
+    background: url('/images/logoagencia.png');
+    width: 233px;
+    height: 46px;
+    margin-top: 66px;
+}
+
+/*Adicionar um banner ao laptop*/
+.asset{
+    max-width: 100%;
+    width: 908px;
+    height: 557px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 60px;
+}
+
+/*Marketing de marcas*/
+.marcas{
+    width: 100%;
+    height: 150px;
+    margin-top: 350px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.marcas .marca1{
+    background: url('/images/LOGO1.png');
+    width: 260px;
+    height: 142px;
+    position: relative;
+}
+.marcas .marca2{
+    background: url('/images/LOGO2.png');
+    width: 260px;
+    height: 142px;
+    position: relative;
+}
+.marcas .marca3{
+    background: url('/images/LOGO3.png');
+    width: 260px;
+    height: 142px;
+    position: relative;
+}
+.marcas .marca4{
+    background: url('/images/LOGO4.png');
+    width: 260px;
+    height: 142px;
+    position: relative;
+}
+.marcas .marca5{
+    background: url('/images/LOGO5.png');
+    width: 260px;
+    height: 142px;
+    position: relative;
+}
+
+/*Parte cinza que na verdade é branca*/
+.parte_cinza{
+    background-color: white;
+    opacity: 1;
+    width: 100%;
+    height: 2900px;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    margin-top: 3670px;
+}
+.parte_cinza h1{
+    text-align: left;
+    font: normal normal bold 64px/75px 'Raleway';
+    letter-spacing: 0px;
+    color: #040404;
+    opacity: 1;
+    text-align: center;
+    margin-top: 100px;
+}
+.parte_cinza h5{
+    text-align: center;
+    font: normal normal normal 20px/32px 'Raleway';
+    letter-spacing: 0px;
+    color: #7E92AC;
+    opacity: 1;
+    margin-top: 10px;
+}
+
+/*Tres divs com informações*/
+.tres_divs{
+    max-width: 100%;
+    width: 2189px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 60px;
+    flex-wrap: wrap;
+    background-color: #f4f4f4;
+    margin: auto;
+    
+}
+.tres_divs .div1{
+    width: 536px;
+    height: 431px;
+    background-color: white;
+    border-radius: 20px;
+}
+.tres_divs .div2{
+    width: 536px;
+    height: 431px;
+    background-color: white;
+    border-radius: 20px;
+}
+.tres_divs .div3{
+    width: 536px;
+    height: 431px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.tres_divs img{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.tres_divs h2{
+    font: normal normal 600 28px/33px Raleway;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    width: 528px;
+    height: 33px;
+}
+.div1 h2{
+    margin-left: -30px;
+}
+.div2 h2{
+    margin-left: -40px;
+}
+.div3 h2{
+    margin-left: -7px;
+}
+.tres_divs p{
+    text-align: left;
+    font: normal normal normal 16px/26px Raleway;
+    letter-spacing: 0px;
+    color: #7E92AC;
+    opacity: 1;
+    width: 406px;
+    height: 99px;
+    margin: auto;
+    position: relative;
+    top: 35px;
+}
+
+/*Parte azul 2*/
+.parte_azul_2{
+    background: url('/images/BANNER\ IMG.svg') no-repeat center;
+    height: 432px;
+    background-size: cover;
+    max-width: 100%;
+    width: 2189px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 230px;
+    margin: auto;
+   
+}
+.parte_azul_2 h1{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 0px;
+}
+.parte_azul_2 h5{
+    color: #FFFFFF;
+    opacity: 0.8;
+    position: relative;
+    top: 10px;
+}
+.parte_azul_2 .botao{
+    color: #0F3FD3;
+    background-color: #FFDD33;
+    width: 300px;
+    position: relative;
+    font: normal normal bold 20px/24px 'Raleway';
+    width: 332px;
+    height: 68px;
+    text-align: center;
+    top: 55px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.botao h3{
+    margin-top: 20px;
+}
+
+/*beneficios para voce*/
+.container{
+    max-width: 100%;
+    width: 2100px;
+    height: 25vh;
+    position: absolute;
+    top: 2900px;
+}
+.beneficios_para_voce{
+    width: 700px;
+    height: 563px;
+    position: absolute;
+    left: 15%;
+}
+.beneficios_para_voce h2{
+    text-align: left;
+    font: normal normal bold 54px/75px Raleway;
+    letter-spacing: 0px;
+    color: #040404;
+    opacity: 1;
+    margin-left: 30px;
+}
+.beneficios_para_voce p{
+    text-align: left;
+    font: normal normal medium 16px/24px Raleway;
+    letter-spacing: 0px;
+    color: #7E92AC;
+    opacity: 1;
+    margin-left: 100px;
+    position: relative;
+    top: -85px;
+}
+.check2, .check3{
+    margin-top: -50px;
+}
+.entrar_em_contato_botao{
+    background-color: #255AFF;
+    border-radius: 10px;
+    width: 332px;
+    height: 68px;
+    text-align: center;
+    margin-top: -20px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.entrar_em_contato_botao h3{
+    color: white;
+    position: relative;
+    top: 20px;
+}
+/*imagem -- entrar em contato*/
+.image{
+    width: 912px;
+    height: 783px;
+    background: transparent url('images/IMAGEM1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: relative;
+    top: -80px;
+    left: 1000px;
+}
+
+/*Depoimentos*/
+.depoimentos{
+    margin-top: 5900px;
+    position: absolute;
+    text-align: center;
+    background-color: #f4f4f4;
+    width: 2189px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.depoimentos h1{
+    text-align: left;
+    font: normal normal bold 64px/75px Raleway;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-top: 30px;
+}
+.depoimentos h3{
+    text-align: center;
+    font: normal normal normal 30px/35px Raleway;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-top: 40px;
+}
+.depoimentos p{
+    text-align: center;
+    font: normal normal normal 16px/26px Raleway;
+    letter-spacing: 0px;
+    color: #7E92AC;
+    opacity: 1;
+    max-width: 80%;
+}
+.depoimentos img{
+    margin-top: 40px;
+}
+
+/*USER1*/
+.user1{
+    background-color: white;
+    width: 398px;
+    height: 523px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.user1_photo{
+    margin-top: -50px;
+}
+
+/*USER2*/
+.user2{
+    background-color: white;
+    width: 398px;
+    height: 523px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: none;
+}
+.user2_photo{
+    margin-top: -25px;
+}
+
+/*USER3*/
+.user3{
+    background-color: white;
+    width: 398px;
+    height: 523px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: none;
+}
+.user3_photo{
+    margin-top: -50px;
+}
+
+
+.main_roler{
+    width: 150px;
+    height: 50px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.main_roler div{
+    background-color: #D2D8EB;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+.main_roler .ball1{
+    background-color: #255AFF;
+}
+.main_roler .ball1, .ball2, .ball3{
+    cursor: pointer;
+}
+
+/*Contato Botão*/
+.contato_bottom{
+    position: absolute;
+    top: 4600px;
+    display: flex;
+    flex-direction: column; 
+    gap: 40px;   
+    text-align: center;
+    align-items: center;
+}
+.contato_bottom h1{
+    text-align: left;
+    font: normal normal bold 64px/75px Raleway;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.contato_bottom .email{
+    width: 812px;
+    height: 75px;
+    background: #FCFDFF 0% 0% no-repeat padding-box;
+    border: 1px solid #C3CCE8;
+    border-radius: 10px;
+    opacity: 1;
+}
+.contato_bottom .name{
+    width: 812px;
+    height: 75px;
+    background: #FCFDFF 0% 0% no-repeat padding-box;
+    border: 1px solid #C3CCE8;
+    border-radius: 10px;
+    opacity: 1;
+}
+.contato_bottom textarea{
+    background: #FCFDFF 0% 0% no-repeat padding-box;
+    border: 1px solid #C3CCE8;
+    border-radius: 10px;
+    opacity: 1;
+    width: 812px;   
+    height: 279px;
+    resize: none;
+}
+.contato_bottom .enviar_botao{
+    width: 811px;
+    height: 68px;
+    background: #255AFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.enviar_botao h3{
+    text-align: center;
+    font: normal normal bold 20px/24px Raleway;
+    letter-spacing: 1.88px;
+    color: #FFFFFF;
+    opacity: 1;
+    width: 83px;
+    height: 24px;
+}
+.email::-webkit-input-placeholder{
+    text-align: left;
+    font: normal normal bold 20px/24px Raleway;
+    letter-spacing: 0px;
+    color: #7E92AC;
+    opacity: 1;
+    width: 64px;
+    height: 24px;
+    position: relative;
+    left: 20px;
+}
+.name::-webkit-input-placeholder{
+    text-align: left;
+    font: normal normal bold 20px/24px Raleway;
+    letter-spacing: 0px;
+    color: #7E92AC;
+    opacity: 1;
+    width: 64px;
+    height: 24px;
+    position: relative;
+    left: 20px;
+}
+textarea::-webkit-input-placeholder{
+    text-align: left;
+    font: normal normal bold 20px/24px Raleway;
+    letter-spacing: 0px;
+    color: #7E92AC;
+    opacity: 1;
+    width: 104px;
+    height: 24px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+/*Bottom*/
+.bottom{
+    background-color: #255AFF;
+    max-width: 100%;
+    width: 1920px;
+    height: 119px;
+    position: absolute;
+    top: 5680px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.bottom div{
+    color: #FFFFFF;
+    margin-left: 7%;
+}
+.bottom p{
+    text-align: left;
+    font: normal normal normal 20px/24px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.bottom .links2{
+    width: 100%;
+}
+
+/*--------------------------------------*/
+.bottom .links2{
+    margin-right: -55%;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bottom .links2 a{
+    text-decoration: none;
+    margin-left: 36px;
+    display: inline-block;
+    font: normal normal bold 20px/24px'Raleway';
+    color: #F0F4FA;
+}
+.links2 a:hover{
+    border-bottom: 3px solid yellow;
+}
+.links2 .diff:hover{
+    border: none;
+    color: yellow;
+    
+}
+.bottom .links2 .diff{
+    background-color: #0F3FD3;
+    width: 230px;
+    height: 60px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+/*--------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------*/
+/*MEDIAS PARA RESPONSIVO*/
+@media screen and (max-width: 1428px) {
+    .menu .logo{
+        position: absolute;
+        margin: auto;
+        left: 40%;
+    }
+    .menu .links{
+        margin: auto;
+        position: relative;
+        top: 80px;
+    }
+}
+@media screen and (max-width: 1832px) {
+    .depoimentos{
+        top: -1600px;
+    }
+    .contato_bottom{
+        top: 5250px;
+    }
+    .bottom{
+        top: 6350px;
+    }
+}
+@media screen and (max-width: 1828px) {
+    .image{
+        top: 600px;
+        left: 0px;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+    .beneficios_para_voce{
+        left: 25%;
+    }
+}
+@media screen and (max-width: 1549px) {
+    #titulo{
+        margin: 0 auto;
+        position: inherit;
+        margin-top: 140px;
+    }
+    .subtitulo{
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 1649px) {
+    .parte_azul_2{
+        top: -450px;
+    }
+    .container{
+        top: 3300px;
+    }
+    .depoimentos{
+        top: -1200px;
+    }
+    .contato_bottom{
+        top: 5650px;
+    }
+    .bottom{
+        top: 6750px;
+    }
+}
+@media screen and (max-width: 1101px) {
+    .parte_azul_2{
+        top: -850px;
+    }
+}
+@media screen and (max-width: 1095px) {
+    .depoimentos{
+        top: -700px;
+    }
+    .contato_bottom{
+        top: 6150px;
+    }
+    .bottom{
+        top: 7150px;
+    }
+ }
+@media screen and (max-width: 1093px) {
+   .container{
+        top: 3800px;
+   }
+   .beneficios_para_voce{
+    left: 20%;
+}
+    .links2{
+        position: absolute;
+        left: -10px;
+        top: 50px;
+    }
+}
+@media screen and (max-width: 924px) {
+    .beneficios_para_voce{
+        left: 15%;
+    }
+    .asset{
+        width: 200px;
+        height: 250px;
+    }
+}
+@media screen and (max-width: 784px) {
+    .parte_cinza{
+        margin-top: 2980px;
+    }
+}
+@media screen and (max-width: 785px) {
+    .parte_cinza{
+        top: -1400px;
+    }
+    .container{
+        top: 4000px;
+    }
+    .depoimentos{
+        top: -500px;
+    }
+    .contato_bottom{
+        top: 6350px;
+    }
+    .bottom{
+        top: 7400px;
+    }
+}
+@media screen and (max-width: 606px) {
+    .container{
+        margin-left: -140px;
+        top: 4100px;
+    }
+    .beneficios_para_voce h2{
+        font-size: 30px;
+    }
+    .image{
+        width: 750px;
+        height: 550px;
+        background-size: cover;
+        left: 40px;
+    }
+    .depoimentos h1{
+        font-size: 45px;
+    }
+}
+@media screen and (max-width: 604px) {
+    .parte_cinza{
+        margin-top: 3100px;
+    }
+    .menu .logo{
+        margin-left: -90px;
+    }
+}
+@media screen and (max-width: 528px) {
+    .container{
+        top: 4800px;
+    }
+    .depoimentos{
+        top: -10px;
+    }
+    .contato_bottom{
+        top: 6700px;
+    }
+    .bottom{
+        top: 7500px;
+    }
+    .beneficios_para_voce p{
+        width: 300px;
+    }
+    .parte_azul_2{
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 524px) {
+    .parte_cinza{
+        margin-top: 3600px;
+    }
+}
+@media screen and (max-width: 1649px) {
+    .parte_azul_2{
+        margin-top: 650px;
+    }   
+}
+@media screen and (max-width: 1097px) {
+    .parte_azul_2{
+        margin-top: 1100px;
+    }
+    
+}
+@media screen and (max-width: 1355px) {
+    .parte_azul{
+        max-width: 104%;
+
+    }
+}
+@media screen and (max-width: 838px) {
+    .contato_bottom .enviar_botao{
+        width: 200px;
+    }
+    .contato_bottom .name{
+        width: 320px;
+        height: 60px;
+    }
+    .contato_bottom .email{
+        width: 320px;
+        height: 60px;
+    }
+    .contato_bottom textarea{
+        width: 320px;
+        height: 200px;
+    }
+    .bottom{
+        height: 200px;
+    }
+    .contato_bottom h1{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 1510px) {
+    .bottom{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 444px) {
+    .links2{
+       height: 150px;
+    }
+    .links2 a{
+        display: flex;
+        flex-direction: column;
+    }
+    .links{
+        left: 40px;
+    }
+}
