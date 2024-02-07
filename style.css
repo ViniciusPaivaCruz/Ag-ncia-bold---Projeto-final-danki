@@ -27,7 +27,7 @@ body{
  /* Layout Properties */
 .parte_azul{
     width: 104%;
-    background-image: url('/images/HERO\ BACKGROUND.png');  
+    background-image: url('images/HERO\ BACKGROUND.png');  
     background-position: center;
     background-size: cover;
     margin-left: -20px;
@@ -100,7 +100,7 @@ body{
 }
 .menu .logo{
     margin-left: 260px;
-    background: url('/images/logoagencia.png');
+    background: url('images/logoagencia.png');
     width: 233px;
     height: 46px;
     margin-top: 66px;
@@ -129,31 +129,31 @@ body{
 }
 
 .marcas .marca1{
-    background: url('/images/LOGO1.png');
+    background: url('images/LOGO1.png');
     width: 260px;
     height: 142px;
     position: relative;
 }
 .marcas .marca2{
-    background: url('/images/LOGO2.png');
+    background: url('images/LOGO2.png');
     width: 260px;
     height: 142px;
     position: relative;
 }
 .marcas .marca3{
-    background: url('/images/LOGO3.png');
+    background: url('images/LOGO3.png');
     width: 260px;
     height: 142px;
     position: relative;
 }
 .marcas .marca4{
-    background: url('/images/LOGO4.png');
+    background: url('images/LOGO4.png');
     width: 260px;
     height: 142px;
     position: relative;
 }
 .marcas .marca5{
-    background: url('/images/LOGO5.png');
+    background: url('images/LOGO5.png');
     width: 260px;
     height: 142px;
     position: relative;
@@ -257,7 +257,7 @@ body{
 
 /*Parte azul 2*/
 .parte_azul_2{
-    background: url('/images/BANNER\ IMG.svg') no-repeat center;
+    background: url('images/BANNER\ IMG.svg') no-repeat center;
     height: 432px;
     background-size: cover;
     max-width: 100%;
